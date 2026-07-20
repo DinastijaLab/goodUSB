@@ -3,7 +3,7 @@
 This project turns a CircuitPython-compatible microcontroller (like a Raspberry Pi Pico or Adafruit board) into an automated keystroke injector (BadUSB). When plugged into a fresh Windows machine, it automatically launches PowerShell, pulls down a public powershell setup, and runs a software installation script using Windows Package Manager (winget).
 
 ## ✨ Features
-- The physical device only executes a single command line, the bulk of the installation logic runs directly from a [PowerShell setup file](./payload.ps1) in the offical repo.
+- The physical device only executes a single command line, the bulk of the installation logic runs directly from a [PowerShell setup file](./code/payload.ps1) in the offical repo.
 - The physical device waits for the user to press **caps lock** to confirm that the powershell terminal has opended.
 
 ## 🛠️ Hardware Requirements
