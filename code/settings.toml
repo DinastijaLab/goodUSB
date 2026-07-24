@@ -3,7 +3,7 @@
 ONLINE_MODE=true
 
 # Will be ignored if ONLINE_MODE is set to false
-PAYLOAD_URL="https://raw.githubusercontent.com/DinastijaLab/goodUSB/refs/heads/main/code/payload.ps1"
+PAYLOAD_URL="https://raw.githubusercontent.com/milos-io/goodUSB/refs/heads/main/code/payload.ps1"
 
 # How long the board waits when the UAC is supposed to pop up, it needs to be a STRING
 UAC_WAIT="1.5"
